@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+.wrapper {
+  background-color: white;
+  min-height: 80vh;
+  border-radius: 5px;
+  margin: 0 20px;
+  text-align: left;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header a {
+  height: 50px;
+}
+
+.title {
+  padding: 10px 15px;
+}
+
+.close_button {
+  width: 23px;
+  height: 23px;
+  margin: 20px;
+  background: none;
+  border: none;
+  appearance: none;
+}
+
+.close_button:hover {
+  cursor: pointer;
+}
+
+.text_about {
+  width: 70%;
+  text-align: left;
+  margin: 10px 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.change_desc {
+  display: flex;
+  width: 70%;
+  height: 310px;
+  text-align: start;
+  margin: 10px 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: white;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.hide {
+  display: none;
+}
+
+.desc_form {
+  background-color: white;
+  display: block;
+}
+
+.open_form_btn {
+  background-color: rgba(0, 121, 191, 1);
+  font-size: 18px;
+  font-family: 'Roboto';
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  border-color: rgba(0, 121, 191, 1);
+  margin: 30px;
+}
+
+.btn_wrapper {
+  margin: 30px;
+  text-align: left;
+}
+
+.form_btn {
+  background-color: rgba(0, 121, 191, 1);
+  font-size: 18px;
+  font-family: 'Roboto';
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  border-color: rgba(0, 121, 191, 1);
+  margin-left: 0;
+}
+
+.form_btn_cancel {
+  background-color: rgba(235, 236, 240, 0.5);
+  font-size: 18px;
+  font-family: 'Roboto';
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  border-color: rgba(235, 236, 240, 0.5);
+  margin: 5px;
+}
+
+@media screen and (max-width: 494px) {
+  .text_about {
+    width: 70%;
+    text-align: left;
+    margin: 8px 25px;
+  }
+
+  .open_form_btn {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 1.5em;
+    padding: 10px 15px;
+  }
+
+  .close_button {
+    width: 16px;
+    height: 16px;
+    margin: 20px;
+  }
+
+  .wrapper {
+    margin: 10px;
+  }
+}

@@ -1,0 +1,7 @@
+.main {
+  background-color: rgba(0, 121, 191, 1);
+  width: 100vw;
+  max-width: 100%;
+  min-height: calc(100vh - 95px);
+  padding: 20px 0;
+}

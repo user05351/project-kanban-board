@@ -1,0 +1,56 @@
+.form {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.selection {
+  background-color: white;
+  margin: 8px 12px;
+  padding: 7px 8px;
+  border: white;
+  border-radius: 5px;
+  width: 91%;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.selection option {
+  border-radius: 5px;
+}
+
+.selection:active,
+.selection:hover,
+.selection:focus {
+  border: white;
+  outline: none;
+}
+
+.submit_btn {
+  background-color: rgba(0, 121, 191, 1);
+  font-size: 18px;
+  font-family: 'Roboto';
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  border-color: rgba(0, 121, 191, 1);
+  margin: 5px;
+}
+
+.hide_btn {
+  background-color: rgba(235, 236, 240, 0.5);
+  font-size: 18px;
+  font-family: 'Roboto';
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  border-color: rgba(201, 201, 201, 0.5);
+  margin: 5px;
+}

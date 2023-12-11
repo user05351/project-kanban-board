@@ -1,0 +1,158 @@
+.list {
+  background-color: rgba(235, 236, 240, 1);
+  width: 23%;
+  padding: 2px;
+  margin: 20px 15px;
+  border-radius: 10px;
+  max-height: 600px;
+  height: fit-content;
+}
+
+.list p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+}
+
+.title {
+  margin: 0;
+}
+
+.tasks {
+  display: block;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.tasks_item {
+  background-color: white;
+  margin: 8px 12px;
+  padding: 7px 8px;
+  border-radius: 5px;
+}
+
+.btnBlock {
+  margin: 20px 12px 12px 12px;
+  text-align: left;
+}
+
+.add_card_button {
+  background: none;
+  border: none;
+  appearance: none;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Roboto';
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.add_card_button:hover {
+  color: black;
+  cursor: pointer;
+  background-color: white;
+}
+
+.add_card_button_disabled {
+  background: none;
+  border: none;
+  appearance: none;
+  color: rgb(136, 136, 136);
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Roboto';
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.task_link {
+  text-decoration: none;
+  color: black;
+}
+
+.task_link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 788px) {
+  .list p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .add_card_button {
+    font-size: 14px;
+    padding: 3px;
+  }
+
+  .add_card_button_disabled {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 644px) {
+  .list p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .add_card_button {
+    font-size: 12px;
+    padding: 2px;
+  }
+
+  .add_card_button_disabled {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .list p {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .add_card_button {
+    font-size: 10px;
+    padding: 1px;
+  }
+
+  .add_card_button_disabled {
+    font-size: 10px;
+  }
+
+  .btnBlock {
+    margin: 10px 6px 6px 6px;
+  }
+}
+
+@media screen and (max-width: 494px) {
+  .list {
+    background-color: rgba(235, 236, 240, 1);
+    width: 80%;
+    padding: 2px;
+    margin: 20px 15px;
+    border-radius: 10px;
+  }
+
+  .list p {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .add_card_button {
+    font-size: 18px;
+    padding: 5px;
+  }
+
+  .add_card_button_disabled {
+    font-size: 18px;
+  }
+
+  .btnBlock {
+    margin: 20px 8px 8px 8px;
+  }
+}
